@@ -35,7 +35,7 @@ export default function Home() {
       {selectedTab === "Recent" ? <InfiniteTweets /> : <FollowingTweets/>}
     </>
   );
-};
+}
 
 function InfiniteTweets() {
   const tweets = api.tweet.infiniteFeed.useInfiniteQuery(

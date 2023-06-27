@@ -14,4 +14,4 @@ export function ProfileImage({ src, className = "" }: ProfileImageProps) {
       )}
     </div>
   );
-};
+}

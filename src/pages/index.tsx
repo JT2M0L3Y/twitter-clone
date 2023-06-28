@@ -32,7 +32,7 @@ export default function Home() {
         )}
       </header>
       <NewTweetForm />
-      {selectedTab === "Recent" ? <InfiniteTweets /> : <FollowingTweets/>}
+      {selectedTab === "Recent" ? <InfiniteTweets /> : <FollowingTweets />}
     </>
   );
 }

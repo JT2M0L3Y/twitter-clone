@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, DetailedHTMLProps } from "react";
+import type { ButtonHTMLAttributes, DetailedHTMLProps } from "react";
 
 type ButtonProps = {
   small?: boolean
@@ -21,4 +21,4 @@ export function Button({
     : "bg-blue-500 hover:bg-blue-400 focus-visible:bg-blue-300";
 
   return <button className={`rounded-full transition-colors duration-200 disabled:cursor-not-allowed disabled:opacity-50 text-white ${sizeClasses} ${colorClasses} ${className}`} {...props}></button>;
-};
+}
